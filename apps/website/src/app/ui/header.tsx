@@ -4,7 +4,7 @@ import { Button } from "@repo/ui/button";
 
 export default function Header() {
     return (
-        <header>
+        <header className="border-b-[1px] border-[#6da446]">
             <div>
                 <div className="flex max-w-6xl m-auto mt-3 px-6 py-1 place-items-center max-sm:px-3">
                     <div className=" hidden grow sm:block">
@@ -19,8 +19,8 @@ export default function Header() {
 
                     <div className="grow sm:hidden">
                         <Image 
-                        src={"/favicon.png"} 
-                        alt={"FarmVesta Logo"}
+                        src="/favicon.png"
+                        alt="FarmVesta Logo"
                         width={50}
                         height={760}
                         className="" 
@@ -45,7 +45,7 @@ export default function Header() {
                               </Link>
                             </li>
                             <li>
-                              <Button className="rounded-2xl bg-[#6da446] py-1 px-3 text-white hover:bg-[#83c746]" appName={"FarmVesta"}>Contact us</Button>
+                              <Button className="rounded-2xl bg-[#6da446] py-1 px-3 text-white hover:bg-[#83c746] transition-colors" appName={"FarmVesta"}>Contact us</Button>
                             </li>
                             
                         </ul>
