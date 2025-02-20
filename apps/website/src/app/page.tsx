@@ -7,7 +7,7 @@ export default function Page() {
       <div>
         <Header/>
       </div>
-      <div className="mt-3">
+      <div className="pt-[75px] sm:pt-[60px]">
         <Banner />
       </div>
     </div>

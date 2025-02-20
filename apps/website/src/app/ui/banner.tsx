@@ -3,8 +3,8 @@ import { ArrowRightIcon } from "@heroicons/react/24/outline";
 
 export default function Banner() {
     return (
-        <div className=" m-auto max-w-6xl px-6 max-sm:px-0">
-            <div className="rounded-xl bg-[url('/bannerbg1.png')] flex items-end bg-cover bg-center h-[500px] lg:h-[700px]">
+        <div className=" m-auto max-w-6xl px-6 max-sm:px-3">
+            <div className="rounded-2xl bg-[url('/bannerbg1.png')] flex items-end bg-cover bg-center h-[500px] lg:h-[700px]">
                 <div>
                   <div className="p-6 sm:p-10 flex justify-between">
                       <div className="md:max-w-[70%]">
@@ -15,7 +15,7 @@ export default function Banner() {
                           </div>
                           
 
-                          <h2 className="text-white text-2xl font-medium sm:text-4xl mb-0 sm:mb-6">
+                          <h2 className="text-white text-2xl xs:text-3xl sm:text-4xl font-medium mb-0 sm:mb-6">
                              Empowering farmers with <br /> innovation & community
                           </h2>
 
