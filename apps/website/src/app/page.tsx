@@ -1,5 +1,6 @@
-import Header from "./ui/header";
-import Banner from "./ui/banner";
+import Header from "./components/header";
+import Banner from "./components/banner";
+import Solutions from "./components/solutions";
 
 export default function Page() {
   return (
@@ -9,6 +10,9 @@ export default function Page() {
       </div>
       <div className="pt-[75px] sm:pt-[60px]">
         <Banner />
+      </div>
+      <div className="my-8">
+        <Solutions />
       </div>
     </div>
   );
