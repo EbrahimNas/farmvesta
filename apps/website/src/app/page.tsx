@@ -2,6 +2,7 @@ import Header from "./components/header";
 import Banner from "./components/banner";
 import Solutions from "./components/solutions";
 import Partners from "./components/partners";
+import Footer from "./components/footer";
 
 export default function Page() {
   return (
@@ -15,8 +16,11 @@ export default function Page() {
       <div className="my-8">
         <Solutions />
       </div>
-      <div className="my-8">
+      <div className="my-20">
         <Partners />
+      </div>
+      <div className="mt-">
+        <Footer />
       </div>
     </div>
   );
