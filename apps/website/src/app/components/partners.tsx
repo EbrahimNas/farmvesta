@@ -9,13 +9,13 @@ export default function Partners() {
               <h3 className="text-2xl md:text-3xl font-medium border-r-4 border-[#6da446] pr-3">Our Partners</h3>
             </div>
 
-            <div className="flex flex-wrap items-center p-4 lg:p-8 bg-[#6da446]/80 rounded-3xl justify-center gap-4 lg:gap-8">
+            <div className="flex flex-wrap items-center p-4 lg:p-8 bg-[#6da446]/50 rounded-3xl justify-center gap-4 lg:gap-8">
                 {customers.map((partner) => (
                     <Image 
                     key={partner.id}
                     src={partner.image_url} 
                     alt={`${partner.name} Logo`}
-                    width={200}
+                    width={150}
                     height={200}
                     className="rounded-2xl"
                     />
