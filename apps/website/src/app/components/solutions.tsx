@@ -10,7 +10,7 @@ export default function Solutions() {
                 <SolutionCard 
                   logo="/favicon.png" 
                   productName="Manager" 
-                  illustration="/manager icon.png" 
+                  illustration="/icons/manager icon.png" 
                   description="A smart farm management system that helps farmers track inventory, manage operations, and optimize productivity with ease." 
                   buttonText="Explore Manager" 
                   buttonLink="/">
@@ -19,7 +19,7 @@ export default function Solutions() {
                 <SolutionCard 
                   logo="/favicon.png" 
                   productName="Hub" 
-                  illustration="/hub icon.png" 
+                  illustration="/icons/hub icon.png" 
                   description="A vibrant online community where farmers connect, share insights, and collaborate on industry trends and innovations." 
                   buttonText="Explore Hub" 
                   buttonLink="/">
@@ -28,7 +28,7 @@ export default function Solutions() {
                 <SolutionCard 
                   logo="/favicon.png" 
                   productName="Market" 
-                  illustration="/market icon.png" 
+                  illustration="/icons/market icon.png" 
                   description="A digital marketplace that links farmers directly to consumers, material suppliers, and service providers, ensuring seamless trade and access to essential resources." 
                   buttonText="Explore Market" 
                   buttonLink="/">

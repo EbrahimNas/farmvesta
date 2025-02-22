@@ -17,7 +17,7 @@ const customers: Customer[] = [
     id: 3,
     name: 'Broadview Farm',
     email: '',
-    image_url: '/partners/firdausfarm2.png',
+    image_url: '/partners/firdausfarm1.png',
   },
 ];
 
