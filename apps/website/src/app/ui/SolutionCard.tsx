@@ -32,7 +32,7 @@ export const SolutionCard = ({
       
       <div className="">
           {/* Logo + Product Name */}
-          <div className="flex flex-col md:flex-row items-center md:space-x-3">
+          <div className="flex flex-col md:flex-row md:items-center md:space-x-3">
               <Image src={logo} alt={`${productName} Logo`} width={40} height={40} />
               <p className="text-xl font-medium md:self-end">{productName}</p>
           </div>

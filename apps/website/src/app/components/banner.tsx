@@ -5,7 +5,7 @@ import { Buttonra } from "../ui/buttonra";
 export default function Banner() {
   return (
     <div className="m-auto max-w-6xl px-6 max-sm:px-3">
-      <div className="rounded-2xl bg-[url('/bannerbg1.png')] flex items-end bg-cover bg-center h-[500px] lg:h-[700px]">
+      <div className="rounded-2xl bg-[url('/bannerbg.png')] flex items-end bg-cover bg-center h-[500px] lg:h-[700px]">
         <div>
           <div className="p-6 sm:p-10 flex justify-between">
             <div className="md:max-w-[70%]">

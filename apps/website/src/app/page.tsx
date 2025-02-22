@@ -1,6 +1,7 @@
 import Header from "./components/header";
 import Banner from "./components/banner";
 import Solutions from "./components/solutions";
+import Partners from "./components/partners";
 
 export default function Page() {
   return (
@@ -13,6 +14,9 @@ export default function Page() {
       </div>
       <div className="my-8">
         <Solutions />
+      </div>
+      <div className="my-8">
+        <Partners />
       </div>
     </div>
   );
