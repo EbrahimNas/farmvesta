@@ -36,7 +36,7 @@ export default function Banner() {
                   consumers and essential services...
                 </p>
                 <Link
-                  href="/"
+                  href="/about"
                   className="inline-flex items-center py-1 gap-2 border-b-2 border-white border-opacity-50"
                 >
                   <span>Learn More</span>

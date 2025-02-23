@@ -32,13 +32,13 @@ export default function Header() {
                 {/* Navigation Links */}
                 <nav>
                     <ul className="flex space-x-7 text-sm max-sm:space-x-4 items-center">
-                        <li>
+                        <li className="hover:text-[#83c746]">
                             <Link href="/">Home</Link>
                         </li>
-                        <li>
-                            <Link href="/">About us</Link>
+                        <li className="hover:text-[#83c746]">
+                            <Link href="/about">About us</Link>
                         </li>
-                        <li>
+                        <li className="hover:text-[#83c746]">
                             <Link href="/">Blog</Link>
                         </li>
                         <li className="rounded-2xl bg-[#6da446] py-1 px-3 text-white hover:bg-[#83c746] transition-colors">
