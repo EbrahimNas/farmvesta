@@ -39,7 +39,7 @@ export default function Header() {
                             <Link href="/about">About us</Link>
                         </li>
                         <li className="hover:text-[#83c746]">
-                            <Link href="/">Blog</Link>
+                            <Link href="/blog">Blog</Link>
                         </li>
                         <li className="rounded-2xl bg-[#6da446] py-1 px-3 text-white hover:bg-[#83c746] transition-colors">
                             <Link href="/">
