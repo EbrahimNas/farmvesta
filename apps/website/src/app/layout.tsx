@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "FarmVesta",
   description: "FarmVesta Official Website",
   icons: {
-    icon: "/favicon.png", // Path to your favicon
+    icon: "/favicon.png",
   },
 };
 
