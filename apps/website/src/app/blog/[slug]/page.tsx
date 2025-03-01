@@ -1,8 +1,13 @@
 import { notFound } from "next/navigation";
-import Header from "@/app/components/header";
 import Footer from "@/app/components/footer";
 import { placeholderBlogs } from "@/app/lib/placeholder-data";
+import { generateBlogMetadata } from "@/app/lib/metadata";
 import Image from "next/image";
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params; // Await the params to extract slug
+  return generateBlogMetadata(slug);
+}
 
 export default async function BlogPost(props: { params: Promise<{ slug: string }> }) {
     // Await the params to get the slug asynchronously
@@ -17,7 +22,6 @@ export default async function BlogPost(props: { params: Promise<{ slug: string }
   
     return (
       <div>
-        <Header />
         <div className="my-24 m-auto max-w-6xl px-6 max-sm:px-3">
           <div className="py-6">
             <div className="flex-col justify-between mb-8">
@@ -36,9 +40,16 @@ export default async function BlogPost(props: { params: Promise<{ slug: string }
                 className="rounded-2xl mb-8" 
               />
             </div>
-  
-            <div className="rounded-2xl bg-[#ebebeb] dark:bg-[#363636] p-6">
+
+            {/* Blog Content */}
+            <div className="rounded-2xl bg-[#ebebeb] dark:bg-[#363636] p-6 space-y-4 m-auto max-w-lg">
               <p>{blog.content}</p>
+              {blog.content2 && <p>{blog.content2}</p>}
+              {blog.content3 && <p>{blog.content3}</p>}
+              {blog.content4 && <p>{blog.content4}</p>}
+              {blog.content5 && <p>{blog.content5}</p>}
+              {blog.content6 && <p>{blog.content6}</p>}
+              {blog.content7 && <p>{blog.content7}</p>}
             </div>
           </div>
         </div>
