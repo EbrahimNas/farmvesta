@@ -14,10 +14,35 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "FarmVesta",
-  description: "FarmVesta Official Website",
+  title: {
+    template: '%s | FarmVesta',
+    default: 'FarmVesta',
+  },
+  description: "Empowering farmers with innovation and community-driven solutions.",
   icons: {
     icon: "/favicon.png",
+  },
+  openGraph: {
+    title: "FarmVesta",
+    description: "Join FarmVesta in revolutionizing agriculture with smart solutions for farmers.",
+    url: "https://farmvesta.vercel.app/",
+    siteName: "FarmVesta",
+    images: [
+      {
+        url: "/favicon.png", 
+        width: 1200,
+        height: 630,
+        alt: "FarmVesta - Smart Solutions for Farmers",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@FarmVesta", // update twitter handle after setup
+    title: "FarmVesta - Empowering Farmers",
+    description: "Join FarmVesta in revolutionizing agriculture with smart solutions for farmers.",
+    images: ["/favicon.png"],
   },
 };
 

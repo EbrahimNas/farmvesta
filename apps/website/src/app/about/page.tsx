@@ -1,6 +1,11 @@
 import Footer from "../components/footer";
 import { InfoCard } from "../ui/infoCard";
 import { aboutPageData } from "../lib/placeholder-data";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'About',
+};
 
 export default function AboutPage() {
   return (

@@ -1,6 +1,11 @@
 import Link from "next/link";
 import Footer from "../components/footer";
 import { placeholderBlogs } from "../lib/placeholder-data";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Blog',
+};
 
 export default function BlogPage() {
   return (

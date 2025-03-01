@@ -1,7 +1,12 @@
 import { notFound } from "next/navigation";
 import Footer from "@/app/components/footer";
 import { placeholderBlogs } from "@/app/lib/placeholder-data";
+import { generateBlogMetadata } from "@/app/lib/metadata";
 import Image from "next/image";
+
+export async function generateMetadata({ params }: { params: { slug: string } }) {
+  return generateBlogMetadata(params.slug);
+}
 
 export default async function BlogPost(props: { params: Promise<{ slug: string }> }) {
     // Await the params to get the slug asynchronously
