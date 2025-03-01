@@ -4,8 +4,9 @@ import { placeholderBlogs } from "@/app/lib/placeholder-data";
 import { generateBlogMetadata } from "@/app/lib/metadata";
 import Image from "next/image";
 
-export async function generateMetadata({ params }: { params: { slug: string } }) {
-  return generateBlogMetadata(params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params; // Await the params to extract slug
+  return generateBlogMetadata(slug);
 }
 
 export default async function BlogPost(props: { params: Promise<{ slug: string }> }) {
