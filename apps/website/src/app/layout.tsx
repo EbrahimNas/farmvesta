@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: "FarmVesta",
     images: [
       {
-        url: "/favicon.png", 
+        url: "/favicon1.png", 
         width: 1200,
         height: 630,
         alt: "FarmVesta - Smart Solutions for Farmers",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     site: "@FarmVesta", // update twitter handle after setup
     title: "FarmVesta - Empowering Farmers",
     description: "Join FarmVesta in revolutionizing agriculture with smart solutions for farmers.",
-    images: ["/favicon.png"],
+    images: ["/favicon1.png"],
   },
 };
 

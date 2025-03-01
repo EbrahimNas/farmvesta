@@ -19,7 +19,7 @@ export async function generateBlogMetadata(slug: string): Promise<Metadata> {
             siteName: "FarmVesta",
             images: [
                 {
-                    url: post.image || "/favicon.png",
+                    url: post.image || "/favicon1.png",
                     width: 1200,
                     height: 630,
                     alt: post.title,
@@ -32,7 +32,7 @@ export async function generateBlogMetadata(slug: string): Promise<Metadata> {
             site: "@FarmVesta",
             title: post.title,
             description: post?.description,
-            images: [post.image || "/favicon.png"],
+            images: [post.image || "/favicon1.png"],
         },
     };
 }
